@@ -1,0 +1,17 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-items li {
+    display: inline-block;
+    margin: 0 20px;
+    color: white;
+}
