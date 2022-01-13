@@ -1,9 +1,9 @@
-body {
-    background-image: url('images/bg3.jpg');
+/* body {
+    background-image: url('images/bg3.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
-}
-
+} 
+*/
 .navbar-items {
     list-style-type: none;
     display: flex;
@@ -23,6 +23,12 @@ body {
     background-color:rgba(255, 196, 0, 0.788);
 }
 
+.lol
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .faq p{
     color: black;
     background-color: antiquewhite;
@@ -32,3 +38,85 @@ body {
     border-radius: 2rem;
     width: 61rem;
 }
+
+.firstpage
+{
+    height:90vh;
+    width:97vw;
+    display: flex;
+    align-items: center; justify-content: center;
+    /* background-image: url(https://images.unsplash.com/photo-1637775297509-19767f6fc225?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MTY5OTQwNg&ixlib=rb-1.2.1&q=85); */
+    
+    /* background-color: #b90a0a; */
+}
+
+/* //timer */
+/* (A) WRAPPER */
+.countdown * {
+    font-family: Impact, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+.countdown {
+    display: flex;
+    margin: 0 auto;
+    min-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+  
+  /* (B) DAY/HR/MIN/SEC CELLS */
+  .countdown .cell {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+  }
+  .countdown .digits {
+    font-size: 24px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .countdown .text {
+    margin-top: 10px;
+    color: #ddd;
+  }
+  
+  /* (C) IF YOU WANT TO SPECIFICALLY STYLE THE DAY/HR/MIN/SEC
+  .countdown .days { }
+  .countdown .hours { }
+  .countdown .minutes { }
+  .countdown .seconds { }
+  */
+  
+  /* (X) DOES NOT MATTER */
+  /* PAGE & BODY */
+  body {
+    display: flex;
+    align-items: center; justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1637775297509-19767f6fc225?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MTY5OTQwNg&ixlib=rb-1.2.1&q=85);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .firstpage h1 { margin: 10px 0; }
+  
+  #timer-ended
+  {
+      display: none;
+  }
+  
+  h1 {
+    font-family: arial, sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* WIDGET */
+  .widget-wrap {
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+  }
