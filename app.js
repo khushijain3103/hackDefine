@@ -84,7 +84,7 @@ var counter = {
     //   remain : 86500,
       
       // COUNTDOWN TO SPECIFIC DATE
-      remain : counter.toSecs(new Date("2022-01-15 17:00:00 GMT+05:30")),
+      remain : counter.toSecs(new Date("2022-01-15 00:00:00 GMT+05:30")),
       
       // OPTIONAL - RUN THIS ON TIMER END
       after : () => { document.querySelector("#timer-ended").style.display = "block"; }
